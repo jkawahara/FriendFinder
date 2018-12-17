@@ -7,7 +7,7 @@ var app = express();
 // Heroku port or 8080
 var PORT = process.env.PORT || 8080;
 // Body parsing for URL encoded and JSON
-app.use(express.urlencoded({ extended: true}));
+app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // *** Call routes: HTML, API
