@@ -21,6 +21,11 @@
     * [Issues](https://github.com/jkawahara/bamazon-cl/issues) Issue tracking for user stories, features and bug report
   * Functionality - refer to [video of application user flow](https://drive.google.com/open?id=1DEAWLvp-Pw_Qkdidk0QRRQQiEyQG0qUq):
     * Design Description
+      * Web application server
+        * Configure Express web app server listening on process.env.PORT (Heroku) or default to 8080. Parse URL encoded, any type including nexted objects, and JSON and call appropriate routing based on HTML or API requests.
+        * Imported Modules: npm (express)
+        * Relevant functions: require(), express(), use(), listen() 
+        * Relevant modules: server.js
       * Data:
         * 
       * General design of views
@@ -52,6 +57,8 @@
     * For further development or use of this application, clone or download application files from GitHub, which is organized into the following directory structure:
       * /FriendFinder (application root directory level)
         * /app
+          * /assets
+            * /images - images of friends data objects
           * /data
             * friends.js
           * /public
