@@ -1,6 +1,7 @@
 // *** Include Modules: express, path
 var express = require('express');
 
+
 // *** Express configuration
 // Create Express application
 var app = express();
@@ -10,9 +11,10 @@ var PORT = process.env.PORT || 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+
 // *** Call routes: HTML, API
-require('./app/routing/htmlRoutes')(app);
 require('./app/routing/apiRoutes')(app);
+require('./app/routing/htmlRoutes')(app);
 
 
 // *** Listener
