@@ -26,12 +26,13 @@
         * Relevant functions: require(), express(), use(), listen() 
         * Relevant modules: server.js
       * Routing
-        * Configure routing for viewing HTML pages and API friends data object  
+        * Configure routing for viewing HTML pages and API friends data object
+        * calculateMatch() function determines best match based on least total difference in survey question responses, for new friend compared to existing friends 
         * Required Modules: friends.js, path (built-in to Node)
-        * Relevant functions: require(), exports(), get(), sendFile(), join(), post(), json(), push()
+        * Relevant functions: require(), exports(), get(), sendFile(), join(), post(), json(), push(), calculateMatch()
         * Relevant modules: htmlRoutes.js, apiRoutes.js
       * Data
-        * Declare surveyData and friendsData as objects, respectively, to hold questions and friends profiles
+        * Declare friendsData as objects to hold friends profiles
         * Required Modules: N/A
         * Relevant functions: exports()
         * Relevant modules: friends.js
@@ -43,7 +44,9 @@
           data object
           * Relevant view: home.html
         * Survey page
-          * Container includes form inputs (name and photo link), select options (response to survey questions) and submit button
+          * Jumbotron container includes page header
+          * Form container includes inputs (name and photo link), select options (response to survey questions) and submit button
+          * Modal popup includes name and photo link of best match
           * Relevant view: survey.html
    * Prerequisites for Development:
     * MacBook Air (Intel Core i7, 2.2 GHz, 1 Processor, 2 Cores, 8GB)
@@ -54,15 +57,13 @@
     * Chrome Version 70.0.3538.110 (Official Build) (64-bit)
    * Built With:
     * [Node.js](https://nodejs.org/docs/latest/api/documentation.html)
-    * [npm](https://www.npmjs.com/)
-      * [express](https://www.npmjs.com/package/express)
-      * [path](https://www.npmjs.com/package/path)
+      * [path](https://nodejs.org/api/path.html)
+      * [npm](https://www.npmjs.com/)
+        * [express](https://www.npmjs.com/package/express)
    * Installing:
     * For further development or use of this application, clone or download application files from GitHub, which is organized into the following directory structure:
       * /FriendFinder (application root directory level)
         * /app
-          * /assets
-            * /images - images of friends data objects
           * /data
             * friends.js
           * /public
@@ -84,7 +85,7 @@
    * Running the tests:
     * Unit testing & integration testing was informally executed
    * Deployment:
-    * Deployed on Heroku
+    * Deployed on [Heroku](https://fierce-falls-39849.herokuapp.com/)
  ## Versioning
   * For the versions available, see the tags on this repository.
  ## Authors
