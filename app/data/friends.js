@@ -1,42 +1,8 @@
-// Survey data array with following properties: questions
-var surveyData = [
-  {
-    q1: 'You are motivated to get out of bed before sunrise'
-  },
-  {
-    q2: 'You think formal training is important'
-  },
-  {
-    q3: 'You appreciate bizare or quirky talents over professional skills'
-  },
-  {
-    q4: 'You believe it\'s important to have role models'
-  },
-  {
-    q5: 'You prefer to listen instead of talking when in social situations'
-  },
-  {
-    q6: 'You routinely go out at night'
-  },
-  {
-    q7: 'You enjoy maintaining a comfortable home environment'
-  },
-  {
-    q8: 'You are chased by others more often than being the one chasing others'
-  },
-  {
-    q9: 'You take the path least traveled'
-  },
-  {
-    q10: 'You drink a lot'
-  }
-];
-
 // Friends data object with following properties: name, photo, scores of questions (q1 thru q10, respectively, for array index 0 thru 9)
 var friendsData = [
   {
     name: 'Labrador',
-    photo: 'test',
+    photo: 'https://media.gettyimages.com/photos/bob-the-chocolate-labrador-puppy-picture-id154394948',
     scores: [
       1,
       2,
@@ -52,7 +18,7 @@ var friendsData = [
   },
   {
     name: 'Hummingbird',
-    photo: '',
+    photo: 'http://www.coloradolifemagazine.com/Dick-Orleans-Rocky-Mountain-Hummingbirds/CC-DO3_0015.jpg',
     scores: [
       2,
       3,
@@ -68,7 +34,7 @@ var friendsData = [
   },
   {
     name: 'Cat',
-    photo: '',
+    photo: 'https://www.chewy.com/petcentral/wp-content/uploads/2017/11/British-shorthair-cat-breed.jpg',
     scores: [
       3,
       4,
@@ -84,7 +50,7 @@ var friendsData = [
   },
   {
     name: 'Goat',
-    photo: '',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd1QPQ2PaffDz-SpFH2MlbmnR4EW_dO2HI51KOudyi6MQRo7fU',
     scores: [
       4,
       5,
@@ -100,7 +66,7 @@ var friendsData = [
   },
   {
     name: 'Owl',
-    photo: '',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2XrgY18jtY9SgmPHK2Wm53RmyXxCx_vspc0784qRQ2lEMUbjs',
     scores: [
       5,
       4,
@@ -116,7 +82,7 @@ var friendsData = [
   },
   {
     name: 'Skunk',
-    photo: '',
+    photo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1srT8GL45Opwdi_Qq0BmplwlhjuffUzDy4q4WA6vXNEtVPQ2OmA',
     scores: [
       4,
       3,
@@ -132,7 +98,7 @@ var friendsData = [
   },
   {
     name: 'Squirrel',
-    photo: '',
+    photo: 'https://c1.staticflickr.com/8/7172/6582952625_edf40c3e2a_b.jpg',
     scores: [
       3,
       2,
@@ -148,7 +114,7 @@ var friendsData = [
   },
   {
     name: 'Wolf',
-    photo: '',
+    photo: 'https://i.ytimg.com/vi/XypJqDYqwnw/maxresdefault.jpg',
     scores: [
       2,
       1,
@@ -164,7 +130,7 @@ var friendsData = [
   },
   {
     name: 'Dolphin',
-    photo: '',
+    photo: 'https://i.pinimg.com/originals/4e/f7/2c/4ef72cd7c1ed832ce5aaeb646b89fdcd.jpg',
     scores: [
       1,
       2,
@@ -180,7 +146,7 @@ var friendsData = [
   },
   {
     name: 'Penguin',
-    photo: '',
+    photo: 'https://www.hbw.com/sites/default/files/styles/ibc_2k/public/ibc/p/Eudyptes_chrysocome_Rockhopper_Penguin-7.jpg?itok=vPFbMT47',
     scores: [
       2,
       3,

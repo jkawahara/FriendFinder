@@ -9,7 +9,173 @@
     <title>Friend Finder Survey</title>
   </head>
   <body>
+    <!-- Jumbotron header -->
+    <div class="container">
+      <div class="jumbotron text-center mt-4 py-1">
+        <h1 class="display-6">Personality Test</h1>
+        <p class="lead">Complete the questions below to build your personality profile. Once your profile is completed, potential matches will be presented.</p>
+      </div>
+    </div>
 
+    <!-- Personality test questions -->
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label for="inputName"><h5>Your Name</h5></label>
+          <input type="text" class="form-control" id="name" required>
+          <label for="inputPhoto"><h5>Link to your Photo</h5></label>
+          <input type="text" class="form-control" id="photo" required>
+        </div>
+        <h5>
+          <strong>Question 1</strong>
+          <p>You are motivated to get out of bed before sunrise.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q1" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 2</strong>
+          <p>You think formal training is important.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q2" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 3</strong>
+          <p>You appreciate bizare or quirky talents over professional skills.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q3" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 4</strong>
+          <p>You believe it's important to have role models.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q4" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 5</strong>
+          <p>You prefer to listen instead of talking when in social situations.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q5" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 6</strong>
+          <p>You routinely go out at night.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q6" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 7</strong>
+          <p>You enjoy maintaining a comfortable home environment.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q7" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 8</strong>
+          <p>You are chased by others more often than being the one chasing others.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q8" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 9</strong>
+          <p>You take the path least traveled.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q9" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <h5>
+          <strong>Question 10</strong>
+          <p>You drink a lot.</p>
+        </h5>
+        <div class="form-group">
+          <select class="chosen-select" id="q10" required>
+            <option value></option>
+            <option value="1">1 (Strongly Disagree)</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5 (Strongly Agree)</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+      </form>
+    </div>
+
+      <!-- Footer with API links -->
+    <footer class="footer">
+        <div class="container mt-4">
+          <p><a href="/api/friends">API Friends Link</a></p>
+        </div>
+      </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
