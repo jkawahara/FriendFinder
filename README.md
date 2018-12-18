@@ -48,44 +48,44 @@
           * Form container includes inputs (name and photo link), select options (response to survey questions) and submit button
           * Modal popup includes name and photo link of best match
           * Relevant view: survey.html
-   * Prerequisites for Development:
-    * MacBook Air (Intel Core i7, 2.2 GHz, 1 Processor, 2 Cores, 8GB)
-    * 64 bit operating system 
-    * git version 2.18.0
-    * Visual Studio Code Version 1.29.1
-    * [GitHub FriendFinder](https://github.com/jkawahara/FriendFinder)
-    * Chrome Version 70.0.3538.110 (Official Build) (64-bit)
-   * Built With:
-    * [Node.js](https://nodejs.org/docs/latest/api/documentation.html)
-      * [path](https://nodejs.org/api/path.html)
-      * [npm](https://www.npmjs.com/)
-        * [express](https://www.npmjs.com/package/express)
-   * Installing:
-    * For further development or use of this application, clone or download application files from GitHub, which is organized into the following directory structure:
-      * /FriendFinder (application root directory level)
-        * /app
-          * /data
-            * friends.js
-          * /public
-            * home.html
-            * survey.html
-          * /routing
-            * apiRoutes.js
-            * htmlROutes.js
-        * /node_modules (ignored by git) - generated first time npm install executes
-        * .gitignore
-        * LICENSE
-        * package-lock.json - generated each time npm install executes
-        * package.json - includes dependencies
-        * README.md
-        * server.js
-    * Once the application files are ready per the above structure, go to the application root directory level
-      * Enter the following in termminal to install required node packages. This executes by referring to the included dependencies in package.json and creates required node packages in /node_modules and package-lock.json:
-        * npm install
-   * Running the tests:
-    * Unit testing & integration testing was informally executed
-   * Deployment:
-    * Deployed on [Heroku](https://fierce-falls-39849.herokuapp.com/)
+    * Prerequisites for Development:
+      * MacBook Air (Intel Core i7, 2.2 GHz, 1 Processor, 2 Cores, 8GB)
+      * 64 bit operating system 
+      * git version 2.18.0
+      * Visual Studio Code Version 1.29.1
+      * [GitHub FriendFinder](https://github.com/jkawahara/FriendFinder)
+      * Chrome Version 70.0.3538.110 (Official Build) (64-bit)
+    * Built With:
+      * [Node.js](https://nodejs.org/docs/latest/api/documentation.html)
+        * [path](https://nodejs.org/api/path.html)
+        * [npm](https://www.npmjs.com/)
+          * [express](https://www.npmjs.com/package/express)
+    * Installing:
+      * For further development or use of this application, clone or download application files from GitHub, which is organized into the following directory structure:
+        * /FriendFinder (application root directory level)
+          * /app
+            * /data
+              * friends.js
+            * /public
+              * home.html
+              * survey.html
+            * /routing
+              * apiRoutes.js
+              * htmlROutes.js
+          * /node_modules (ignored by git) - generated first time npm install executes
+          * .gitignore
+          * LICENSE
+          * package-lock.json - generated each time npm install executes
+          * package.json - includes dependencies
+          * README.md
+          * server.js
+      * Once the application files are ready per the above structure, go to the application root directory level
+        * Enter the following in termminal to install required node packages. This executes by referring to the included dependencies in package.json and creates required node packages in /node_modules and package-lock.json:
+          * npm install
+    * Running the tests:
+      * Unit testing & integration testing was informally executed
+    * Deployment:
+      * Deployed on [Heroku](https://fierce-falls-39849.herokuapp.com/)
  ## Versioning
   * For the versions available, see the tags on this repository.
  ## Authors
