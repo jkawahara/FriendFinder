@@ -3,7 +3,6 @@ var friendsData = require('../data/friends');
 
 // Calculate totalDifference to determine best match
 function calculateMatch(newFriend) {
-  console.log(newFriend.body);
   var totalDifference = [];
   // Iterate over each friend object
   for (var i = 0; i < friendsData.length; i++) {
