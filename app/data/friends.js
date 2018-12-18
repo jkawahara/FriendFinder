@@ -32,7 +32,7 @@ var surveyData = [
   }
 ];
 
-// Friends data object with following properties: name, photo, scores
+// Friends data object with following properties: name, photo, scores of questions (q1 thru q10, respectively, for array index 0 thru 9)
 var friendsData = [
   {
     name: 'Labrador',
@@ -47,150 +47,151 @@ var friendsData = [
       3,
       2,
       1,
+      2,
     ]
   },
   {
     name: 'Hummingbird',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      2,
+      3,
+      4,
+      5,
+      4,
+      3,
+      2,
+      1,
+      2,
+      3
     ]
   },
   {
     name: 'Cat',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      3,
+      4,
+      5,
+      4,
+      3,
+      2,
+      1,
+      2,
+      3,
+      4
     ]
   },
   {
     name: 'Goat',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      4,
+      5,
+      4,
+      3,
+      2,
+      1,
+      2,
+      3,
+      4,
+      5
     ]
   },
   {
     name: 'Owl',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      5,
+      4,
+      3,
+      2,
+      1,
+      2,
+      3,
+      4,
+      5,
+      4
     ]
   },
   {
     name: 'Skunk',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      4,
+      3,
+      2,
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      3
     ]
   },
   {
     name: 'Squirrel',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      3,
+      2,
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      3,
+      2
     ]
   },
   {
     name: 'Wolf',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      2,
+      1,
+      2,
+      3,
+      4,
+      5,
+      4,
+      3,
+      2,
+      1
     ]
   },
   {
     name: 'Dolphin',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      1,
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5
     ]
   },
   {
     name: 'Penguin',
     photo: '',
     scores: [
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      ,
-      
+      2,
+      3,
+      4,
+      5,
+      1,
+      2,
+      3,
+      4,
+      5,
+      1
     ]
   }
 ];

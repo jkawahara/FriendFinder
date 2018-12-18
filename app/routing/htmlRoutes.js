@@ -8,7 +8,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, '../public/survey.html'));
   });
 
-  // Retrieve home page for all other request
+  // Retrieve home page for all other requests
   app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname, '../public/home.html'));
   });

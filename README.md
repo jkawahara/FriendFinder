@@ -10,7 +10,6 @@
   * This project development, from design through deployment of the application, used Node.js and Express as the primary web development technologies on the server side along with HTML/CSS/JS on the client side:
     * The following npm packages were used:
       * express: fast, unopinionated, minimalist web framework for node web services
-      * path: provides way of working with directories and file paths
   * User Stories, by categorization:
     * Application data object structured with name, photo and 10 scores
     * Server requirements (express, path), configuration, routing (HTML, API), listening
@@ -23,28 +22,29 @@
     * Design Description
       * Web application server
         * Configure Express web app server listening on process.env.PORT (Heroku) or default to 8080. Parse URL encoded, any type including nested objects, and JSON and call appropriate routing based on HTML or API requests.
-        * Imported Modules: npm (express)
+        * Required Modules: express (npm)
         * Relevant functions: require(), express(), use(), listen() 
         * Relevant modules: server.js
       * Routing
-        * 
+        * Configure routing for viewing HTML pages and API friends data object  
+        * Required Modules: friends.js, path (built-in to Node)
         * Relevant functions: require(), exports(), get(), sendFile(), join(), post(), json(), push()
         * Relevant modules: htmlRoutes.js, apiRoutes.js
-      * Data:
-        * 
-      * General design of views
-        * Require modules and packages: 
-        * 
-        * Relevant functions: 
-        * Home page view
-          * 
-          * Relevant functions: 
-          * Relevant modules:
-        * Survey page view
-          * 
-          * Relevant functions: 
-          * Relevant modules:
-      * 
+      * Data
+        * Declare surveyData and friendsData as objects, respectively, to hold questions and friends profiles
+        * Required Modules: N/A
+        * Relevant functions: exports()
+        * Relevant modules: friends.js
+      * View Layout
+        * Boilerplate includes HTML5 doctype and viewport meta tag along with Bootstrap CSS jQuery, Popper.js, Bootstrap
+        * Footer container includes API friends link used to route for retrieving friends 
+        * Home page
+          * Jumbotron button includes survey link to route to survey.html
+          data object
+          * Relevant view: home.html
+        * Survey page
+          * Container includes form inputs (name and photo link), select options (response to survey questions) and submit button
+          * Relevant view: survey.html
    * Prerequisites for Development:
     * MacBook Air (Intel Core i7, 2.2 GHz, 1 Processor, 2 Cores, 8GB)
     * 64 bit operating system 
