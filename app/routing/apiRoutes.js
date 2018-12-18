@@ -9,7 +9,7 @@ function calculateMatch(newFriend) {
     var absValue = 0;
     // Iterate over each survey question
     for (var j = 0; j < 9; j++) {
-      // Calculate absolute value of each question for new friend and existing friends profiles
+      // Calculate absolute value of each question for new friend and existing friends profiles; type coercion?
       absValue += Math.abs(newFriend.body.scores[j]-friendsData[i].scores[j]);
     }
     // Append into array
