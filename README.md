@@ -16,8 +16,8 @@
     * Views of home, survey pages and JSON of friends data object
  ### 3. How / Design Description
   * The scope of the project fit well into [Agile methodology with Scrum and Kanban frameworks](https://en.wikipedia.org/wiki/Agile_software_development). Due to limited scope and non-group assignment, GitHub's built-in tools were not used to support project execution:
-    * [Projects](https://github.com/jkawahara/bamazon-cl/projects) Kanban board for documenting user stories and overall progress
-    * [Issues](https://github.com/jkawahara/bamazon-cl/issues) Issue tracking for user stories, features and bug report
+    * Projects: Kanban board for documenting user stories and overall progress
+    * Issues: Issue tracking for user stories, features and bug report
   * Functionality - refer to [video of application user flow](https://drive.google.com/open?id=1DEAWLvp-Pw_Qkdidk0QRRQQiEyQG0qUq):
     * Design Description
       * Web application server
